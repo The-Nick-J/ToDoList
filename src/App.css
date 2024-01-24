@@ -153,3 +153,7 @@ body {
 .list li label:hover ~ .btn.btn-danger {
     display: block;
 }
+
+.TaskText {
+    font-size: 55px;
+}
