@@ -159,3 +159,21 @@ body {
 .TaskText {
     font-size: 55px;
 }
+
+.borrar-todo {
+    margin-top: 6rem;
+    background: #28313b;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+.borrar-todo:hover {
+    background: #7c4039;
+    font-size: 15px;
+}

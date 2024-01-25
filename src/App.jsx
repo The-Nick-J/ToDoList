@@ -78,8 +78,9 @@ const App = () => {
     <>
       <NewTodoForm addTodo={addTodo} />
       <h1 className="header">Tareas:</h1>
-      <button onClick={deleteAllTodos}>Borrar todas las tareas</button>
+      
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
+      <button className="borrar-todo" onClick={deleteAllTodos}>Borrar todas las tareas</button>
     </>
   );
 };
